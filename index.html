@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mélodie – Assistance</title>
+<style>
+  :root { --accent:#6b45d6; --text:#1d1b26; --muted:#5e5b6e; --bg:#f7f5fd; --card:#ffffff; --line:#e6e1f5; color-scheme:light; }
+  @media (prefers-color-scheme: dark) { :root { --accent:#a98bff; --text:#f1eff8; --muted:#b4b0c6; --bg:#13111b; --card:#1d1a28; --line:#2e2a3d; color-scheme:dark; } }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.6 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; color:var(--text); background:var(--bg); }
+  main { max-width:760px; margin:0 auto; padding:36px 16px 64px; }
+  header { display:flex; align-items:center; gap:14px; margin-bottom:6px; }
+  .logo { width:52px; height:52px; border-radius:12px; background:linear-gradient(135deg,#8a5cf0,#5a36c4); display:grid; place-items:center; color:#fff; font-size:28px; }
+  h1 { margin:0; font-size:1.9rem; }
+  .lead { color:var(--muted); margin:4px 0 22px; }
+  nav { display:flex; flex-wrap:wrap; gap:8px 14px; margin-bottom:8px; }
+  nav a, .switch a { color:var(--accent); text-decoration:none; font-weight:600; }
+  section { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:20px 22px; margin:18px 0; }
+  h2 { margin:0 0 8px; font-size:1.25rem; }
+  h3 { font-size:1rem; margin:16px 0 4px; }
+  p { margin:6px 0; }
+  ul { padding-inline-start:20px; margin:6px 0; }
+  .mail { font-weight:700; user-select:all; word-break:break-all; }
+  .switch { margin-top:10px; font-size:.95rem; }
+  [dir=rtl] { text-align:right; }
+  footer { color:var(--muted); font-size:.85rem; text-align:center; margin-top:30px; }
+</style>
+</head>
+<body>
+<main>
+  <header><div class="logo" aria-hidden="true">♪</div><div><h1>Mélodie</h1></div></header>
+  <p class="lead">Lecteur de musique pour Mac et iPhone · Assistance</p>
+  <nav><a href="#fr">Français</a><a href="#en">English</a><a href="#es">Español</a><a href="#ar">العربية</a></nav>
+
+  <section id="fr" lang="fr">
+    <h2>Assistance</h2>
+    <p>Une question, un problème, une idée ? Écrivez-nous : <span class="mail">ADRESSE_A_COMPLETER</span>. Nous répondons en général sous quelques jours.</p>
+    <p>Pour nous aider, indiquez si vous utilisez Mélodie sur Mac ou sur iPhone, la version de l'app et ce qui se passe.</p>
+    <h3>Aide intégrée</h3>
+    <p>L'aide complète se trouve dans l'app : bouton <b>?</b> de la barre d'outils sur Mac, <b>Réglages › Aide</b> sur iPhone.</p>
+    <h3>Confidentialité</h3>
+    <p>Mélodie ne collecte aucune donnée. <a href="confidentialite.html#fr">Lire la politique de confidentialité</a>.</p>
+  </section>
+
+  <section id="en" lang="en">
+    <h2>Support</h2>
+    <p>A question, a problem or an idea? Write to us: <span class="mail">ADRESSE_A_COMPLETER</span>. We usually reply within a few days.</p>
+    <p>To help us, please tell us whether you use Mélodie on Mac or iPhone, the app version and what happens.</p>
+    <h3>Built-in help</h3>
+    <p>Full help is in the app: the <b>?</b> button in the toolbar on Mac, <b>Settings › Help</b> on iPhone.</p>
+    <h3>Privacy</h3>
+    <p>Mélodie collects no data. <a href="confidentialite.html#en">Read the privacy policy</a>.</p>
+  </section>
+
+  <section id="es" lang="es">
+    <h2>Asistencia</h2>
+    <p>¿Una pregunta, un problema o una idea? Escríbenos: <span class="mail">ADRESSE_A_COMPLETER</span>. Solemos responder en unos días.</p>
+    <p>Para ayudarnos, indica si usas Mélodie en Mac o en iPhone, la versión de la app y lo que ocurre.</p>
+    <h3>Ayuda integrada</h3>
+    <p>La ayuda completa está en la app: el botón <b>?</b> de la barra de herramientas en Mac, <b>Ajustes › Ayuda</b> en iPhone.</p>
+    <h3>Privacidad</h3>
+    <p>Mélodie no recopila ningún dato. <a href="confidentialite.html#es">Leer la política de privacidad</a>.</p>
+  </section>
+
+  <section id="ar" lang="ar" dir="rtl">
+    <h2>الدعم</h2>
+    <p>لديك سؤال أو مشكلة أو فكرة؟ راسلنا على: <span class="mail">ADRESSE_A_COMPLETER</span>. نرد عادةً خلال بضعة أيام.</p>
+    <p>لمساعدتنا، اذكر هل تستخدم Mélodie على الـMac أم على الـiPhone، ورقم إصدار التطبيق، وما الذي يحدث.</p>
+    <h3>المساعدة المدمجة</h3>
+    <p>المساعدة الكاملة داخل التطبيق: زر <b>?</b> في شريط الأدوات على الـMac، و<b>الإعدادات › المساعدة</b> على الـiPhone.</p>
+    <h3>الخصوصية</h3>
+    <p>لا يجمع Mélodie أي بيانات. <a href="confidentialite.html#ar">اقرأ سياسة الخصوصية</a>.</p>
+  </section>
+  <footer>© 2026 Bassam Ibrahim · Mélodie pour Mac et iPhone · Mise à jour : 14 novembre 2026</footer>
+</main>
+</body>
+</html>
